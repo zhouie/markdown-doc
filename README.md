@@ -34,7 +34,7 @@
 ## 1.3 Markdown官方文档
 
 *   [创始人 John Gruber 的 Markdown 语法说明](http://daringfireball.net/projects/markdown/syntax)
-*   [Markdown 中文版语法说明](http://wowubuntu.com/markdown/#list)
+*   [Markdown 中文版语法说明](https://zhouie.cn/markdown-doc/markdown-doc-syntax-zh)
 
 > 了解一下 John Gruber
 
@@ -687,7 +687,7 @@ Github 的 Markdown 语法支持添加 emoji 表情，输入不同的符号码�
 * [首次使用MarkDown好激动](https://www.zybuluo.com/liayun/note/371635)
 * [让你的Markdown用起来得心应手](https://www.jianshu.com/p/d7d6da4b7c60?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 * [一段JS代码让Markdown自动生成侧边栏目录](https://www.jianshu.com/p/34c92cbd0aaf/)
-* [Markdown 语法说明 (简体中文版)](http://wowubuntu.com/markdown/index.html)
+* [Markdown 语法说明 (简体中文版)](https://zhouie.cn/markdown-doc/markdown-doc-syntax-zh)
 * [码字必备：18 款优秀的 Markdown 写作工具 | 2015 年度盘点 - 少数派](https://sspai.com/post/32483#fn5)
 
 ---
