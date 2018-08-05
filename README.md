@@ -1,3 +1,8 @@
+[![](https://img.shields.io/github/issues/zhouie/markdown-doc.svg)](https://github.com/zhouie/markdown-doc/issues)
+[![](https://img.shields.io/github/forks/zhouie/markdown-doc.svg)](https://github.com/zhouie/markdown-doc/network) 
+[![](https://img.shields.io/github/stars/zhouie/markdown-doc.svg)](https://github.com/zhouie/markdown-doc/stargazers)
+
+
 > 起初也就是打算简单一些Markdown在编辑Blog方面的一些常用操作和注意事项，没想到，一下没刹住，毫无防备地闯进了这个有趣的园子....
 
 # 1. 认识 Markdown
