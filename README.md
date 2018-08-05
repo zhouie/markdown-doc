@@ -38,7 +38,7 @@
 John Gruber 是一个资深果粉，他的个人博客 [Daring Fireball](https://daringfireball.net/) 被人戏称为 苹果官方喉舌博客。所以你应该懂为什么最好的 Markdown 编辑器都集中在 Mac 平台上了吧。
 
 ---
-#2. 使用Markdown
+# 2. 使用Markdown
 
 ## 2.1 标题
 
