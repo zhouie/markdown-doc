@@ -1,11 +1,13 @@
 > 起初也就是打算简单一些Markdown在编辑Blog方面的一些常用操作和注意事项，没想到，一下没刹住，毫无防备地闯进了这个有趣的园子....
 
 # 1. 认识 Markdown
+
 > HTML ( `HyperText Markup Language` ) 作为一种超文本标记语言 ( `Markup Language` ) 应运而生，无数的网页从此有了主次分明，层次清晰的格式。
 > 如果将 HTML 比作一架重机枪，那么 Markdown 就是一把手枪，满足了主要的文本格式标记的需求，可是操作性却大大简化。
 > 秉承 **易读易写** 的宗旨，Markdown 作为一种轻量级标记语言 ( `Lightweight Markup Language` ) ，让无数的程序猿和文字工作者爱不释手。
 
 ## 1.1 Markdown的优点
+
 * 专注你的文字内容而不是排版样式，安心写作
 * 轻松的导出 `HTML`、`PDF` 和本身的 `.md` 文件
 * 纯文本内容，兼容所有的文本编辑器与字处理软件
@@ -25,6 +27,7 @@
 虽然功能的 “**丰富**” 并没有什么本质的缺点，但这个程度一旦 “过” 了头，终归有些背离初衷，与 “易读易写” 出现矛盾，开始在编写的过程中觉得有些许吃力了。那这个时候，用户可能会觉得，不如使用专业化的工具来撰写更有效率。
 
 ## 1.3 Markdown官方文档
+
 *   [创始人 John Gruber 的 Markdown 语法说明](http://daringfireball.net/projects/markdown/syntax)
 *   [Markdown 中文版语法说明](http://wowubuntu.com/markdown/#list)
 
@@ -36,17 +39,21 @@ John Gruber 是一个资深果粉，他的个人博客 [Daring Fireball](https:
 
 ---
 #2. 使用Markdown
+
 ## 2.1 标题
+
 Markdown 通过在行首添加 1 ~ 6个 `#` 符号来定义不同级别的标题，最多到六级标题。
 注意 ：`#` 后最好是需要加一个空格。
 
 * 书写格式
-  ```
-  # 一级标题
-  ## 二级标题
-  ### 三级标题
-  ###### 六级标题
-  ```
+
+```
+# 一级标题
+## 二级标题
+### 三级标题
+###### 六级标题
+```
+
 * 解析效果
 
 ![# 标题样式](http://pcx2lec2u.bkt.clouddn.com/201808051352_845.png)
@@ -55,200 +62,217 @@ Markdown 通过在行首添加 1 ~ 6个 `#` 符号来定义不同级别的标题
 注意：`=` 和 `-` 的个数在不同 Markdown 工具中都有不同，但这倒不是多大的问题了，简单试试就知道了。 
 
 * 书写格式
- ```
-  效果和一级标题一样
-  =
-  效果和二级标题一样
-  -
-  ```
+
+```
+效果和一级标题一样
+=
+效果和二级标题一样
+-
+```
+
 * 解析效果
+
 ![- = 标题样式](http://pcx2lec2u.bkt.clouddn.com/201808051356_386.png)
 
 ## 2.2 加粗、斜体 和 删除线
+
 * markdown使用 `*` 和 `_`  强调文本，使用一个 `*` 和 `_` 包围的文本会被转化为 *斜体* ；而用两个 `*` 和 `_` 包围的文本则会被转化成 **加粗** ；使用两个`~`包围的文本会被转化为 ~~删除线~~
 * 但如果你的 `*` 、` _` 和 `~` 两边都有空白的话，它们就只会被当成普通的符号，这其实也是一个需要注意的地方
 * 如果要在文字前后直接插入普通的 星号 `*` 或 下划线 `_` ，你可以用 反斜杠 `\` 转义
 
 * 书写格式
   
-  ```
-  *斜体文字*
-  _斜体文字_
-  **加粗文字**
-  __加粗文字__
-  ~~删除内容~~
-  ```
+```
+*斜体文字*
+_斜体文字_
+**加粗文字**
+__加粗文字__
+~~删除内容~~
+```
 
 * 解析效果
-  *斜体文字*
-  *斜体文字*
-  **加粗文字**
-  **加粗文字**
-  ~~删除内容~~
+
+*斜体文字*
+*斜体文字*
+**加粗文字**
+**加粗文字**
+~~删除内容~~
 
 ## 2.3 列表
+
 Markdown支持 无序列表 和 有序列表。
 无序列表可以使用 `*` ， `+` ， `-` 三者中任意符号来标记；有序列表则使用 `数字` 加 `.` 来标记。
 注意：标记后面最好是需要加一个空格，有序列表的数字会被按顺序自动更正。通常情况下，无序列表的项目符号是按照实心圆、空心圆、实心方格的层级关系递进的。
 
 * 书写格式
-  ```
-  有序列表
-  1. 第一点
-  2. 第二点
-  5. 第三点
-  
-  无序列表
-  - 这是无序列表项目
-  + 这是无序列表项目
-  * 这是无序列表项目
-  
-  嵌套的列表
-  + 呵呵
-      * 嘉嘉
-      - 嘻嘻
-      - 吼吼
-          - 嘎嘎
-          + 桀桀
-  * 哈哈
-  ```
-* 解析效果
-  有序列表
-  1. 第一点
-  2. 第二点
-  5. 第三点
 
-  无序列表
-  - 这是无序列表项目
-  + 这是无序列表项目
-  * 这是无序列表项目
-  
-  嵌套的列表
-  + 呵呵
-      * 嘉嘉
-      - 嘻嘻
-      - 吼吼
-          - 嘎嘎
-          + 桀桀
-  * 哈哈
+```
+有序列表
+1. 第一点
+2. 第二点
+5. 第三点
+
+无序列表
+* 这是无序列表项目
+- 这是无序列表项目
++ 这是无序列表项目
+
+嵌套的列表
+- 呵呵
+    + 嘉嘉
+    * 嘻嘻
+    * 吼吼
+        * 嘎嘎
+        - 桀桀
++ 哈哈
+```
+
+* 解析效果
+
+有序列表
+1. 第一点
+2. 第二点
+5. 第三点
+
+无序列表
+* 这是无序列表项目
+- 这是无序列表项目
++ 这是无序列表项目
+
+嵌套的列表
+- 呵呵
+    + 嘉嘉
+    * 嘻嘻
+    * 吼吼
+        * 嘎嘎
+        - 桀桀
++ 哈哈
 
 ## 2.4 引用
+
 在段落前添加一个 `>` 符号即可将该段落标记为引用
 注意： `>` 后最好是需要加一个空格；`>`、`>>` 和 `>>>` 等多层嵌套的使用，有点不太好总结，不要问我为什么，实践出真知。
 
 * 书写格式
-  ```
-  一般用法
-  > 这是引用
-  
-  迭代使用（引用中的引用）
-  > 这是一级引用
-  >> 这是二级引用
-  >>> 这是三级引用
-  >>
-  >> 这是二级引用
-  >
-  > 这是一级引用
 
-  引用的区块内也可使用其他 Markdown 语法
-  > ## 这是一个标题。
-  >
-  > 1.   这是第一行列表项。
-  > 3.   这是第二行列表项。
-  > 5.   这是第三行列表项。
-  >
-  > 给出一些例子代码：
-  >
-  >     return shell_exec("echo $input | $markdown_script");
-  ```
+```
+一般用法
+> 这是引用
+
+迭代使用（引用中的引用）
+> 这是一级引用
+>> 这是二级引用
+>>> 这是三级引用
+>>
+>> 这是二级引用
+>
+> 这是一级引用
+
+引用的区块内也可使用其他 Markdown 语法
+> 1.   这是第一行列表项。
+> 3.   这是第二行列表项。
+> 5.   这是第三行列表项。
+>
+> 给出一些例子代码：
+>
+>     return shell_exec("echo $input | $markdown_script");
+```
+
 * 解析效果 
-  一般用法
-  > 这是引用
-  
-  迭代使用（引用中的引用）
-  > 这是一级引用
-  >> 这是二级引用
-  >>> 这是三级引用
-  >>
-  >> 这是二级引用
-  >
-  > 这是一级引用
-  
-  引用的区块内也可使用其他 Markdown 语法
-  > ## 这是一个标题。
-  >
-  > 1.   这是第一行列表项。
-  > 3.   这是第二行列表项。
-  > 5.   这是第三行列表项。
-  >
-  > 给出一些例子代码：
-  >
-  >     return shell_exec("echo $input | $markdown_script");
+
+一般用法
+> 这是引用
+
+迭代使用（引用中的引用）
+> 这是一级引用
+>> 这是二级引用
+>>> 这是三级引用
+>>
+>> 这是二级引用
+>
+> 这是一级引用
+
+引用的区块内也可使用其他 Markdown 语法
+> 1.   这是第一行列表项。
+> 3.   这是第二行列表项。
+> 5.   这是第三行列表项。
+>
+> 给出一些例子代码：
+>
+>     return shell_exec("echo $input | $markdown_script");
 
 * 补充一下
-  引用区块 `>` 和代码区块 ` ``` ` 的区别：
-  `>`引用区块中的文本保留Markdown语法，而` ``` `代码块中的文本不保留Markdown语法。
+引用区块 `>` 和代码区块 ` ``` ` 的区别：
+`>`引用区块中的文本保留Markdown语法，而` ``` `代码块中的文本不保留Markdown语法。
 
 ## 2.5 分割线
 分割线最常使用就是三个或以上 `*` ，还可以使用 `-` 和 `_` 。 
 注意：使用 `---` 作为水平分割线时，要在它的前面空一行，防止 `---` 被当成标题标记的表示方式。
 
 * 书写格式
-  ```
-  ***
-  ---
-  ___
-  ```
+
+```
+***
+---
+___
+```
 
 * 解析效果
-  ***
-  ---
-  ___
+
+***
+---
+___
 
 ## 2.6 插入链接
- markdown文本中插入链接非常方便，有 `文内链接` 和 `引用链接` 两种方式。
-注意：
-文内链接 和 引用链接 显示效果是一样的，但是在编辑状态下的使用情况不一样。文内链接紧跟链接文字，可以在看到链接文字的同时清楚的知道链接地址，但是不便于多次重复利用。
+markdown文本中插入链接非常方便，有 `文内链接` 和 `引用链接` 两种方式。
+
+注意：文内链接 和 引用链接 显示效果是一样的，但是在编辑状态下的使用情况不一样。文内链接紧跟链接文字，可以在看到链接文字的同时清楚的知道链接地址，但是不便于多次重复利用。
+
 引用链接可以重复使用，但一般都是将一些链接放在一起统一管理，如一段文字后面或文章结尾，因此在找到链接和链接文字的对应关系上有些麻烦，各有利弊，分情况使用吧。
 
 * 书写格式
-  ```
-  文内链接
-  这是一个文内链接的[例子](http://example.com/ "鼠标悬浮此处显示的标题")。
-  [这个](http://example.net/)链接在鼠标悬浮时没有标题。
-  [这个](/about/)链接是本地资源。
 
-  引用链接
-  这是一个引用链接的 [例子][id]，[例子2][]。
-  [id]: http://example.com/  "鼠标悬浮标题（可选）"
-  [例子2]: http://example.com/ 
-  注意，这里的 id 没有大小写区分，如果省略 id ，则前面方括号的内容会被用作 id 。
+```
+文内链接
+这是一个文内链接的[例子](http://example.com/ "鼠标悬浮此处显示的标题")。
+[这个](http://example.net/)链接在鼠标悬浮时没有标题。
+[这个](/about/)链接是本地资源。
 
-  我常用的网站包括 [Google][1]， [Yahoo][2] 和 [MSN][3] 。
-  [1]: http://google.com/        "Google"
-  [2]: http://search.yahoo.com/  "Yahoo Search"
-  [3]: http://search.msn.com/    "MSN Search"
-	
-  也可以写成
+引用链接
+这是一个引用链接的 [例子][id]，[例子2][]。
+[id]: http://example.com/  "鼠标悬浮标题（可选）"
+[例子2]: http://example.com/ 
+注意，这里的 id 没有大小写区分，如果省略 id ，则前面方括号的内容会被用作 id 。
+
+我常用的网站包括 [Google][1]， [Yahoo][2] 和 [MSN][3] 。
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
+[3]: http://search.msn.com/    "MSN Search"
   
-  我常用的网站包括 [Google][]，[Yahoo][] 和 [MSN][] 。
-  [google]: http://google.com/        "Google"
-  [yahoo]:  http://search.yahoo.com/  "Yahoo Search"
-  [msn]:    http://search.msn.com/    "MSN Search"
-  ```
+也可以写成
+
+我常用的网站包括 [Google][]，[Yahoo][] 和 [MSN][] 。
+[google]: http://google.com/        "Google"
+[yahoo]:  http://search.yahoo.com/  "Yahoo Search"
+[msn]:    http://search.msn.com/    "MSN Search"
+```
 
 * 解析效果
-  文内链接
-  这是一个文内链接的
-  这是一个链接的[例子](http://example.com/ "鼠标悬浮此处显示的标题")。
-  [这个](http://example.net/)链接在鼠标悬浮时没有标题。
-  [这个](/about/)链接是本地资源。
+
+文内链接
+这是一个文内链接的
+这是一个链接的[例子](http://example.com/ "鼠标悬浮此处显示的标题")。
+[这个](http://example.net/)链接在鼠标悬浮时没有标题。
+[这个](/about/)链接是本地资源。
 
 ![引用链接的解析效果](http://pcx2lec2u.bkt.clouddn.com/201808051442_773.png)
 
 ## 2.7 插入图片
+
 插入图片和插入链接非常类似，只是在方括号前多一个 `!` 。
+
 `![Alt text](/path/to/img.jpg "Optional title")`
+
 * Alt text为如果图片无法显示时显示的文字。
 * /path/to/img.jpg为图片所在路径。
 * Optional title为显示标题。显示效果为在你将鼠标放到图片上后，会显示一个小框提示，提示的内容就是Optional title。
@@ -256,98 +280,124 @@ Markdown支持 无序列表 和 有序列表。
 注意：Markdown 语法目前还没有某种合适的办法指定图片的宽高，但据我所知，很多平台以及在这个方向作出相当多的改进了，一起期待吧！
 
 * 书写格式
-  ```
-  文内链接
-  ![idol](http://pcx2lec2u.bkt.clouddn.com/201808051449_378.jpg)
-  
-  引用链接
-  ![idol][idol]
-  [idol]: http://pcx2lec2u.bkt.clouddn.com/201808051449_378.jpg
-  ```
-* 解析效果
-  文内链接
-  ![idol](http://pcx2lec2u.bkt.clouddn.com/201808051449_378.jpg)
 
-  ![引用链接解析效果](http://pcx2lec2u.bkt.clouddn.com/201808051452_718.png)
+```
+文内链接
+![idol](http://pcx2lec2u.bkt.clouddn.com/201808051449_378.jpg)
+
+引用链接
+
+![idol][idol]
+[idol]: http://pcx2lec2u.bkt.clouddn.com/201808051449_378.jpg
+```
+
+* 解析效果
+
+文内链接
+
+![idol](http://pcx2lec2u.bkt.clouddn.com/201808051449_378.jpg)
+
+![引用链接解析效果](http://pcx2lec2u.bkt.clouddn.com/201808051452_718.png)
 
 ## 2.8 表格
 表格的书写格式一目了然，还是很方便简洁的。
 
 * 书写格式
-  ```
-  | 左对齐 | 中间对齐 | 右对齐 |
-  | :---   |  :---:   |   ---: |
-  | 左1    |  中1     |  右1   |
-  | 左2    |  中2     |  右3   |
-  ```
+
+```
+| 左对齐 | 中间对齐 | 右对齐 |
+| :---   |  :---:   |   ---: |
+| 左1    |  中1     |  右1   |
+| 左2    |  中2     |  右3   |
+```
+
 * 解析效果
-  | 左对齐 | 中间对齐 | 右对齐 |
-  | :---   |  :---:   |   ---: |
-  | 左1    |  中1     |  右1   |
-  | 左2    |  中2     |  右2   |
+
+| 左对齐 | 中间对齐 | 右对齐 |
+| :---   |  :---:   |   ---: |
+| 左1    |  中1     |  右1   |
+| 左2    |  中2     |  右2   |
 
 ## 2.9 角标
 不同于前面说的链接，这里的角标内容会被放在文末，点击可以实现跳转，使用 `[^]` 来定义脚注。
 
 * 书写格式
-  ```
-  使用 Markdown[^1] 可以效率的书写文档，直接转换成 HTML[^2] ，你可以使用Leanote[^Le] 编辑器进行书写。
-  [^1]: Markdown是一种纯文本标记语言
-  [^2]: HyperText Markup Language 超文本标记语言
-  [^Le]: 开源笔记平台，支持Markdown和笔记直接发为博文
-  ```
+
+```
+使用 Markdown[^1] 可以效率的书写文档，直接转换成 HTML[^2] ，你可以使用Leanote[^Le] 编辑器进行书写。
+[^1]: Markdown是一种纯文本标记语言
+[^2]: HyperText Markup Language 超文本标记语言
+[^Le]: 开源笔记平台，支持Markdown和笔记直接发为博文
+```
+
 * 解析效果
-  使用 Markdown[^1] 可以效率的书写文档，直接转换成 HTML[^2] ，你可以使用Leanote[^Le] 编辑器进行书写。
-  [^1]: Markdown是一种纯文本标记语言
-  [^2]: HyperText Markup Language 超文本标记语言
-  [^Le]: 开源笔记平台，支持Markdown和笔记直接发为博文
+
+使用 Markdown[^1] 可以效率的书写文档，直接转换成 HTML[^2] ，你可以使用Leanote[^Le] 编辑器进行书写。
+[^1]: Markdown是一种纯文本标记语言
+[^2]: HyperText Markup Language 超文本标记语言
+[^Le]: 开源笔记平台，支持Markdown和笔记直接发为博文
 
 
 ## 2.10 上下标
 `<sub>`、`<sup>` 用作表示上下标
 
 * 书写格式
-  ```
-  E = mc<sup>2</sup>
-  Water : H<sub>2</sub>O
-  ```
+
+```
+E = mc<sup>2</sup>
+
+Water : H<sub>2</sub>O
+```
+
 * 解析效果
-  E = mc<sup>2</sup>
-  Water : H<sub>2</sub>O
+
+E = mc<sup>2</sup>
+
+Water : H<sub>2</sub>O
 
 ## 2.11 直接链接与邮箱
 在 markdown 中将 链接地址 或 邮箱地址 用 `<>` 包围，则会被自动转换成可点击的链接地址。
 
 * 书写格式
-  ```
-  <http://haoeric.com>
-  <haoeric0520@gmail.com>
-  ```
+
+```
+<http://haoeric.com>
+<haoeric0520@gmail.com>
+```
+
 * 解析效果
-  <http://haoeric.com>
-  <haoeric0520@gmail.com>
+
+<http://haoeric.com>
+<haoeric0520@gmail.com>
 
 ## 2.12 换行
 使用html标签 `<br/>` 、 `<br>` 换行
 
 * 书写格式
-  ```
-  第一行hahaha <br/> 第二行6666
-  ```
+
+```
+第一行hahaha <br/> 第二行6666
+```
+
 * 解析效果
-  第一行hahaha <br/> 第二行6666
+
+第一行hahaha <br/> 第二行6666
 
 ### 2.13 反斜杠
 如果需要避免文本中的符号被当做 markdown 标识符而发生不必要的格式转化，可以在符号前加 `\` 来避免。
 
 * 书写格式
-  ```
-  \*不是斜体\*
-  ```
+
+```
+\*不是斜体\*
+```
+
 * 解析效果
-  \* 不是斜体 \*
+
+\* 不是斜体 \*
 
 整理一下，Markdown 支持以下这些符号前面加上 反斜杠 来帮助插入普通的符号：
+
 | 符号 | 含义 |
 | :-: | :-: |
 | `\` | `反斜线` |
@@ -367,25 +417,31 @@ Markdown支持 无序列表 和 有序列表。
 使用栅栏标记代码块的一个好处是可以标明代码的语种，然后实现代码的高亮。
 
 * 书写格式
-  ````
-  ```ruby
-  require 'redcarpet'
-  markdown = Redcarpet.new("Hello World!")
-  puts markdown.to_html
-  ```
-  ````
+
+````
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+````
 * 解析效果
-  ```ruby
-  require 'redcarpet'
-  markdown = Redcarpet.new("Hello World!")
-  puts markdown.to_html
-  ```
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 ## 2.15  其他
 ### 2.15.1  锚点
+
 网页中，`锚点` 其实就是页内超链接，也就是 链接本文档内部的某些元素 ，实现当前页面中的跳转，最典型的例子就是 `目录` 这种结构了。比如我这里写下一个锚点，点击 `回到目录`，就能跳转到 `目录`。 在 `目录` 中点击 这一节，就能跳过来。
+
 在 `Github` 的 `md` 文件中，会为每个 `h1~h6` 标签(即 `# ... ######` )，自动塞入一个 `a` 标签，并渲染好 `id` 。 
 
 比如 `# h1`，被渲染成html如下：
+
 ``` html
 <h1>
   <a id="user-content-h1" class="anchor" href="#h1" aria-hidden="true">
@@ -397,6 +453,7 @@ Markdown支持 无序列表 和 有序列表。
     h1
 </h1>
 ```
+
 不去管 `svg` 部分，可以看到 `h1` 标签内嵌入了一个 `id` 为  `"user-content-h1"` 的 `a` 标签，如果标题为 `# h5` ，那么 `id` 就会是 `user-content-h5 ` 。
 
 ### 2.15.2 空格
@@ -404,8 +461,11 @@ Markdown支持 无序列表 和 有序列表。
 
 ### 2.15.3 图片图床
 插入图片的地址需要图床，那么，究竟什么是图床呢？
+
 **图床**，顾名思义，图片床，即大量图片汇聚地，每一张图片都有一个`url`,供所需站点使用。
+
 详情可以参考我之前写的博文 [图床工具分享](https://zhouie.cn/posts/201804241/) 。
+
 另外，越来越多的 Markdown 工具现在开始支持 **一键上传图片至云端并生成 Markdown 引用链接至剪切板**，可以看看最近的我最近在这方面的 收获总结 —— [Md2All Markdown排版利器](https://zhouie.cn/posts/201808032/) 以及 [qiniu_upload windows工具](https://zhouie.cn/posts/201808033/)。
 
 ps：七牛云邀请注册链接：[https://portal.qiniu.com/signup?code=3lowm9s25ur82](https://portal.qiniu.com/signup?code=3lowm9s25ur82)
@@ -415,23 +475,27 @@ ps：七牛云邀请注册链接：[https://portal.qiniu.com/signup?code=3lowm9s
 
 #### 行内公式（`$`表示）
 * 书写格式
-  ```
-  爱因斯坦发明的质能方程是：$E=mc^2$
-  ```
+
+```
+爱因斯坦发明的质能方程是：$E=mc^2$
+```
+
 * 显示效果
-  爱因斯坦发明的质能方程是：$E=mc^2$
+
+爱因斯坦发明的质能方程是：![](http://pcx2lec2u.bkt.clouddn.com/201808052329_486.png)
 
 #### 整行公式（`$$`表示）
 * 书写格式
-  ```
-  $$\sum_{i=1}^n a_i=0$$
-  $$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$
-  $$\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}$$
-  ```
+
+```
+$$\sum_{i=1}^n a_i=0$$
+$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$
+$$\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}$$
+```
+
 * 显示效果
-  $$\sum_{i=1}^n a_i=0$$
-  $$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$
-  $$\sum^{j-1}*{k=0}{\widehat{\gamma}*{kj} z_k}$$
+
+![](http://pcx2lec2u.bkt.clouddn.com/201808052327_103.png)
 
 ### 2.15.5 流程图、渲染序列图
 * [流程图参考语法](http://adrai.github.io/flowchart.js/)
@@ -484,6 +548,7 @@ Github 的 Markdown 语法支持添加 emoji 表情，输入不同的符号码�
 
 
 ## Windows 平台
+
 ### [**Sublime**](http://www.sublimetext.com/)
 * **支持 OS X、Windows、Ubuntu 等 UNIX 及 Linux 平台**
 * [强大的Sublime编辑器](https://blog.csdn.net/jave_f/article/details/79894028)
@@ -583,7 +648,6 @@ Github 的 Markdown 语法支持添加 emoji 表情，输入不同的符号码�
 * [Markable.in](https://markable.in/)
 * [Markdown.css](https://mrcoles.com/demo/markdown-css/)
 
-
 同时，也有一些 Markdown 相关浏览器插件也是很棒的，最典型的便是：[Markdown-Here](https://markdown-here.com/)，我也有写一篇博文专门介绍分享了它 —— [Markdown-Here md-2-html渲染](https://zhouie.cn/posts/201808031/)
 
 ### Others
@@ -602,8 +666,8 @@ Github 的 Markdown 语法支持添加 emoji 表情，输入不同的符号码�
 ### More
 如有更好的 Markdown 免费编辑器推荐，请到[这里留言反馈](https://github.com/Javef/Markdown/issues)，谢谢~
 
-
 ---
+
 # 4. 推荐阅读
 * [MarkDown学习笔记](https://www.jianshu.com/p/564bdf3a9462?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 * [首次使用MarkDown好激动](https://www.zybuluo.com/liayun/note/371635)
@@ -613,7 +677,8 @@ Github 的 Markdown 语法支持添加 emoji 表情，输入不同的符号码�
 * [码字必备：18 款优秀的 Markdown 写作工具 | 2015 年度盘点 - 少数派](https://sspai.com/post/32483#fn5)
 
 ---
-# 5. 补充：
+
+# 5. 补充
 
 2018/04/20 07:12
 ![Markdown_desktop_tool_rank.png](https://upload-images.jianshu.io/upload_images/9934558-a23a100ba5d35018.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
