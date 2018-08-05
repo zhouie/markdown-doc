@@ -640,7 +640,7 @@ Github 的 Markdown 语法支持添加 emoji 表情，输入不同的符号码�
 * 在 Alternote 里，Markdown 标记在输入完成后会自动转换成对应的富文本格式，并不需要额外的预览，不过美中不足的是，这样也造成了一旦转换为富文本就无法再转换回来的问题。
 ![](http://pcx2lec2u.bkt.clouddn.com/201808052119_566.gif)
 
-### [**SnippetsLab**]()
+### [**SnippetsLab**](http://www.renfei.org/snippets-lab/)
 * Snippetslab9 是一款 Mac 平台的面向开发者的代码管理与编写工具，专注于帮助使用者收集整理代码片段，快速调用有价值的代码片段，打造属于个人的代码仓库。
 * 那么它和 Markdown 的关系在哪里呢？奥秘就在它的菜单栏助手上。Snippetslab 的菜单栏助手有着类似印象笔记菜单栏助手的特性，支持在菜单栏打开小窗口进行程序编写，同时可以对代码进行语法高亮，而它正好也支持 Markdown。
 * 目前所有平台中，Snippetslab 是唯一一款提供了菜单栏 Markdown 文字输入的应用，你可以在不用打开主题程序的情况下，以小视窗形式快速的进行 Markdown 编写。
