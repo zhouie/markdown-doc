@@ -29,8 +29,8 @@
   - [2.10 上下标](#210-%E4%B8%8A%E4%B8%8B%E6%A0%87)
   - [2.11 直接链接与邮箱](#211-%E7%9B%B4%E6%8E%A5%E9%93%BE%E6%8E%A5%E4%B8%8E%E9%82%AE%E7%AE%B1)
   - [2.12 换行](#212-%E6%8D%A2%E8%A1%8C)
-    - [2.13 反斜杠](#213-%E5%8F%8D%E6%96%9C%E6%9D%A0)
-    - [2.14 代码高亮](#214-%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE)
+  - [2.13 反斜杠](#213-%E5%8F%8D%E6%96%9C%E6%9D%A0)
+  - [2.14 代码高亮](#214-%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE)
   - [2.15  其他](#215-%E5%85%B6%E4%BB%96)
     - [2.15.1  锚点](#2151-%E9%94%9A%E7%82%B9)
     - [2.15.2 空格](#2152-%E7%A9%BA%E6%A0%BC)
@@ -43,28 +43,28 @@
       - [渲染序列图](#%E6%B8%B2%E6%9F%93%E5%BA%8F%E5%88%97%E5%9B%BE)
     - [2.15.6 GitHub Emoji](#2156-github-emoji)
   - [2.16 Markdown的局限性](#216-markdown%E7%9A%84%E5%B1%80%E9%99%90%E6%80%A7)
-  - [3. Markdown 工具的选择](#3-markdown-%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9)
-    - [3.1 Windows 平台](#31-windows-%E5%B9%B3%E5%8F%B0)
-      - [3.1.1 Sublime](#311-sublime)
-      - [3.1.2 简书](#312-%E7%AE%80%E4%B9%A6)
-      - [3.1.3 Cmd Markdown](#313-cmd-markdown)
-      - [3.1.4 马克飞象](#314-%E9%A9%AC%E5%85%8B%E9%A3%9E%E8%B1%A1)
-      - [3.1.5 为知笔记](#315-%E4%B8%BA%E7%9F%A5%E7%AC%94%E8%AE%B0)
-      - [3.1.6 Simple MarkPad](#316-simple-markpad)
-      - [3.1.7 MarkPad](#317-markpad)
-      - [3.1.8 Miu](#318-miu)
-    - [3.2 Mac 平台](#32-mac-%E5%B9%B3%E5%8F%B0)
-      - [3.2.1 Mou](#321-mou)
-      - [3.2.2 Ulysses](#322-ulysses)
-      - [3.2.3 Byword](#323-byword)
-      - [3.2.4 typora](#324-typora)
-      - [3.2.5 Quiver](#325-quiver)
-      - [3.2.6 Alternote](#326-alternote)
-      - [3.2.7 SnippetsLab](#327-snippetslab)
-      - [3.2.8 MarkdownPad](#328-markdownpad)
-    - [网页版\(线上\)](#%E7%BD%91%E9%A1%B5%E7%89%88%E7%BA%BF%E4%B8%8A)
-    - [Others](#others)
-    - [More](#more)
+- [3. Markdown 工具的选择](#3-markdown-%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9)
+  - [3.1 Windows 平台](#31-windows-%E5%B9%B3%E5%8F%B0)
+    - [3.1.1 Sublime](#311-sublime)
+    - [3.1.2 简书](#312-%E7%AE%80%E4%B9%A6)
+    - [3.1.3 Cmd Markdown](#313-cmd-markdown)
+    - [3.1.4 马克飞象](#314-%E9%A9%AC%E5%85%8B%E9%A3%9E%E8%B1%A1)
+    - [3.1.5 为知笔记](#315-%E4%B8%BA%E7%9F%A5%E7%AC%94%E8%AE%B0)
+    - [3.1.6 Simple MarkPad](#316-simple-markpad)
+    - [3.1.7 MarkPad](#317-markpad)
+    - [3.1.8 Miu](#318-miu)
+  - [3.2 Mac 平台](#32-mac-%E5%B9%B3%E5%8F%B0)
+    - [3.2.1 Mou](#321-mou)
+    - [3.2.2 Ulysses](#322-ulysses)
+    - [3.2.3 Byword](#323-byword)
+    - [3.2.4 typora](#324-typora)
+    - [3.2.5 Quiver](#325-quiver)
+    - [3.2.6 Alternote](#326-alternote)
+    - [3.2.7 SnippetsLab](#327-snippetslab)
+    - [3.2.8 MarkdownPad](#328-markdownpad)
+  - [3.3 网页版\(线上\)](#33-%E7%BD%91%E9%A1%B5%E7%89%88%E7%BA%BF%E4%B8%8A)
+  - [3.4 Others](#34-others)
+  - [3.5 More](#35-more)
 - [4. 推荐阅读](#4-%E6%8E%A8%E8%8D%90%E9%98%85%E8%AF%BB)
 - [5. 补充](#5-%E8%A1%A5%E5%85%85)
 
@@ -72,14 +72,14 @@
 
 
 <a id="1-%E8%AE%A4%E8%AF%86-markdown"></a>
-# 1. 认识 Markdown
+## 1. 认识 Markdown
 
 > HTML ( `HyperText Markup Language` ) 作为一种超文本标记语言 ( `Markup Language` ) 应运而生，无数的网页从此有了主次分明，层次清晰的格式。
 > 如果将 HTML 比作一架重机枪，那么 Markdown 就是一把手枪，满足了主要的文本格式标记的需求，可是操作性却大大简化。
 > 秉承 **易读易写** 的宗旨，Markdown 作为一种轻量级标记语言 ( `Lightweight Markup Language` ) ，让无数的程序猿和文字工作者爱不释手。
 
 <a id="11-markdown%E7%9A%84%E4%BC%98%E7%82%B9"></a>
-## 1.1 Markdown的优点
+### 1.1 Markdown的优点
 
 * 专注你的文字内容而不是排版样式，安心写作
 * 轻松的导出 `HTML`、`PDF` 和本身的 `.md` 文件
@@ -88,7 +88,7 @@
 * 可读、直观、学习成本低
 
 <a id="12-markdown-%E7%9A%84%E7%8E%B0%E7%8A%B6"></a>
-## 1.2 Markdown 的现状
+### 1.2 Markdown 的现状
 
 > 有时候一件事情的真相，不是来自于对它的思考，而是来自于对它的感觉。
 > ——Stanley Kubrick
@@ -101,7 +101,7 @@
 虽然功能的 “**丰富**” 并没有什么本质的缺点，但这个程度一旦 “过” 了头，终归有些背离初衷，与 “易读易写” 出现矛盾，开始在编写的过程中觉得有些许吃力了。那这个时候，用户可能会觉得，不如使用专业化的工具来撰写更有效率。
 
 <a id="13-markdown%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3"></a>
-## 1.3 Markdown官方文档
+### 1.3 Markdown官方文档
 
 *   [创始人 John Gruber 的 Markdown 语法说明](http://daringfireball.net/projects/markdown/syntax)
 *   [Markdown 中文版语法说明](https://zhouie.cn/markdown-doc/markdown-doc-syntax-zh)
@@ -114,10 +114,10 @@ John Gruber 是一个资深果粉，他的个人博客 [Daring Fireball](https:
 
 ---
 <a id="2-%E4%BD%BF%E7%94%A8markdown"></a>
-# 2. 使用Markdown
+## 2. 使用Markdown
 
 <a id="21-%E6%A0%87%E9%A2%98"></a>
-## 2.1 标题
+### 2.1 标题
 
 Markdown 通过在行首添加 1 ~ 6个 `#` 符号来定义不同级别的标题，最多到六级标题。
 注意 ：`#` 后最好是需要加一个空格。
@@ -152,7 +152,7 @@ Markdown 通过在行首添加 1 ~ 6个 `#` 符号来定义不同级别的标题
 ![- = 标题样式](http://pcx2lec2u.bkt.clouddn.com/201808051356_386.png)
 
 <a id="22-%E5%8A%A0%E7%B2%97%E3%80%81%E6%96%9C%E4%BD%93-%E5%92%8C-%E5%88%A0%E9%99%A4%E7%BA%BF"></a>
-## 2.2 加粗、斜体 和 删除线
+### 2.2 加粗、斜体 和 删除线
 
 * markdown使用 `*` 和 `_`  强调文本，使用一个 `*` 和 `_` 包围的文本会被转化为 *斜体* ；而用两个 `*` 和 `_` 包围的文本则会被转化成 **加粗** ；使用两个`~`包围的文本会被转化为 ~~删除线~~
 * 但如果你的 `*` 、` _` 和 `~` 两边都有空白的话，它们就只会被当成普通的符号，这其实也是一个需要注意的地方
@@ -177,7 +177,7 @@ __加粗文字__
 ~~删除内容~~
 
 <a id="23-%E5%88%97%E8%A1%A8"></a>
-## 2.3 列表
+### 2.3 列表
 
 Markdown支持 无序列表 和 有序列表。
 无序列表可以使用 `*` ， `+` ， `-` 三者中任意符号来标记；有序列表则使用 `数字` 加 `.` 来标记。
@@ -228,7 +228,7 @@ Markdown支持 无序列表 和 有序列表。
 + 哈哈
 
 <a id="24-%E5%BC%95%E7%94%A8"></a>
-## 2.4 引用
+### 2.4 引用
 
 在段落前添加一个 `>` 符号即可将该段落标记为引用
 注意： `>` 后最好是需要加一个空格；`>`、`>>` 和 `>>>` 等多层嵌套的使用，有点不太好总结，不要问我为什么，实践出真知。
@@ -286,7 +286,7 @@ Markdown支持 无序列表 和 有序列表。
 `>`引用区块中的文本保留Markdown语法，而` ``` `代码块中的文本不保留Markdown语法。
 
 <a id="25-%E5%88%86%E5%89%B2%E7%BA%BF"></a>
-## 2.5 分割线
+### 2.5 分割线
 分割线最常使用就是三个或以上 `*` ，还可以使用 `-` 和 `_` 。 
 注意：使用 `---` 作为水平分割线时，要在它的前面空一行，防止 `---` 被当成标题标记的表示方式。
 
@@ -305,7 +305,7 @@ ___
 ___
 
 <a id="26-%E6%8F%92%E5%85%A5%E9%93%BE%E6%8E%A5"></a>
-## 2.6 插入链接
+### 2.6 插入链接
 markdown文本中插入链接非常方便，有 `文内链接` 和 `引用链接` 两种方式。
 
 注意：文内链接 和 引用链接 显示效果是一样的，但是在编辑状态下的使用情况不一样。文内链接紧跟链接文字，可以在看到链接文字的同时清楚的知道链接地址，但是不便于多次重复利用。
@@ -350,7 +350,7 @@ markdown文本中插入链接非常方便，有 `文内链接` 和 `引用链接
 ![引用链接的解析效果](http://pcx2lec2u.bkt.clouddn.com/201808051442_773.png)
 
 <a id="27-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87"></a>
-## 2.7 插入图片
+### 2.7 插入图片
 
 插入图片和插入链接非常类似，只是在方括号前多一个 `!` 。
 
@@ -383,7 +383,7 @@ markdown文本中插入链接非常方便，有 `文内链接` 和 `引用链接
 ![引用链接解析效果](http://pcx2lec2u.bkt.clouddn.com/201808051452_718.png)
 
 <a id="28-%E8%A1%A8%E6%A0%BC"></a>
-## 2.8 表格
+### 2.8 表格
 表格的书写格式一目了然，还是很方便简洁的。
 
 * 书写格式
@@ -403,7 +403,7 @@ markdown文本中插入链接非常方便，有 `文内链接` 和 `引用链接
 | 左2    |  中2     |  右2   |
 
 <a id="29-%E8%A7%92%E6%A0%87"></a>
-## 2.9 角标
+### 2.9 角标
 
 不同于前面说的链接，这里的角标内容会被放在文末，点击可以实现跳转，使用 `[^]` 来定义脚注。
 
@@ -427,7 +427,7 @@ markdown文本中插入链接非常方便，有 `文内链接` 和 `引用链接
 [^Le]: 开源笔记平台，支持Markdown和笔记直接发为博文。
 
 <a id="210-%E4%B8%8A%E4%B8%8B%E6%A0%87"></a>
-## 2.10 上下标
+### 2.10 上下标
 `<sub>`、`<sup>` 用作表示上下标
 
 * 书写格式
@@ -445,7 +445,7 @@ E = mc<sup>2</sup>
 Water : H<sub>2</sub>O
 
 <a id="211-%E7%9B%B4%E6%8E%A5%E9%93%BE%E6%8E%A5%E4%B8%8E%E9%82%AE%E7%AE%B1"></a>
-## 2.11 直接链接与邮箱
+### 2.11 直接链接与邮箱
 在 markdown 中将 链接地址 或 邮箱地址 用 `<>` 包围，则会被自动转换成可点击的链接地址。
 
 * 书写格式
@@ -463,7 +463,7 @@ Water : H<sub>2</sub>O
 <haoeric0520@gmail.com>
 
 <a id="212-%E6%8D%A2%E8%A1%8C"></a>
-## 2.12 换行
+### 2.12 换行
 使用html标签 `<br/>` 、 `<br>` 换行
 
 * 书写格式
@@ -529,9 +529,9 @@ puts markdown.to_html
 ```
 
 <a id="215-%E5%85%B6%E4%BB%96"></a>
-## 2.15  其他
+### 2.15  其他
 <a id="2151-%E9%94%9A%E7%82%B9"></a>
-### 2.15.1  锚点
+#### 2.15.1  锚点
 
 网页中，`锚点` 其实就是页内超链接，也就是 链接本文档内部的某些元素 ，实现当前页面中的跳转，最典型的例子就是 `目录` 这种结构了。比如我这里写下一个锚点，点击 `回到目录`，就能跳转到 `目录`。 在 `目录` 中点击 这一节，就能跳过来。
 
@@ -554,11 +554,11 @@ puts markdown.to_html
 不去管 `svg` 部分，可以看到 `h1` 标签内嵌入了一个 `id` 为  `"user-content-h1"` 的 `a` 标签，如果标题为 `# h5` ，那么 `id` 就会是 `user-content-h5 ` 。
 
 <a id="2152-%E7%A9%BA%E6%A0%BC"></a>
-### 2.15.2 空格
+#### 2.15.2 空格
 在段首加入 `&emsp;`、`&ensp;`、`&nbsp;` 来输入空格，其中，`&emsp;` 是一个中文字符，`&ensp;` 是半个中文字符 ，`&nbsp;` 是1/4中文字符。
 
 <a id="2153-%E5%9B%BE%E7%89%87%E5%9B%BE%E5%BA%8A"></a>
-### 2.15.3 图片图床
+#### 2.15.3 图片图床
 插入图片的地址需要图床，那么，究竟什么是图床呢？
 
 **图床**，顾名思义，图片床，即大量图片汇聚地，每一张图片都有一个`url`,供所需站点使用。
@@ -570,11 +570,11 @@ puts markdown.to_html
 ps：七牛云邀请注册链接：[https://portal.qiniu.com/signup?code=3lowm9s25ur82](https://portal.qiniu.com/signup?code=3lowm9s25ur82)
 
 <a id="2154-latex%E5%85%AC%E5%BC%8F"></a>
-### 2.15.4 LaTeX公式
+#### 2.15.4 LaTeX公式
 * [LaTeX公式参考语法](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
 
 <a id="%E8%A1%8C%E5%86%85%E5%85%AC%E5%BC%8F%EF%BC%88%24%E8%A1%A8%E7%A4%BA%EF%BC%89"></a>
-#### 行内公式（`$`表示）
+##### 行内公式（`$`表示）
 * 书写格式
 
 ```
@@ -586,7 +586,7 @@ ps：七牛云邀请注册链接：[https://portal.qiniu.com/signup?code=3lowm9s
 爱因斯坦发明的质能方程是：![](http://pcx2lec2u.bkt.clouddn.com/201808052329_486.png)
 
 <a id="%E6%95%B4%E8%A1%8C%E5%85%AC%E5%BC%8F%EF%BC%88%24%24%E8%A1%A8%E7%A4%BA%EF%BC%89"></a>
-#### 整行公式（`$$`表示）
+##### 整行公式（`$$`表示）
 * 书写格式
 
 ```
@@ -600,12 +600,12 @@ $$\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}$$
 ![](http://pcx2lec2u.bkt.clouddn.com/201808052327_103.png)
 
 <a id="2155-%E6%B5%81%E7%A8%8B%E5%9B%BE%E3%80%81%E6%B8%B2%E6%9F%93%E5%BA%8F%E5%88%97%E5%9B%BE"></a>
-### 2.15.5 流程图、渲染序列图
+#### 2.15.5 流程图、渲染序列图
 * [流程图参考语法](http://adrai.github.io/flowchart.js/)
 * [渲染序列图参考语法](https://bramp.github.io/js-sequence-diagrams/)
 
 <a id="%E6%B5%81%E7%A8%8B%E5%9B%BE"></a>
-#### 流程图
+##### 流程图
 ````
   ```flow
   st=>start: Start:>https://www.zybuluo.com
@@ -623,7 +623,7 @@ $$\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}$$
 ![流程图 显示效果图](http://pcx2lec2u.bkt.clouddn.com/201808051300_914.png)
 
 <a id="%E6%B8%B2%E6%9F%93%E5%BA%8F%E5%88%97%E5%9B%BE"></a>
-#### 渲染序列图
+##### 渲染序列图
 ````
   ```sequence
   Alice->Bob: Hello Bob, how are you?
@@ -634,7 +634,7 @@ $$\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}$$
 ![渲染序列图 显示效果图](http://pcx2lec2u.bkt.clouddn.com/201808051309_694.png)
 
 <a id="2156-github-emoji"></a>
-### 2.15.6 GitHub Emoji
+#### 2.15.6 GitHub Emoji
 Github 的 Markdown 语法支持添加 emoji 表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
 我在 github 上分享了 [markdown-emoji 列表](https://github.com/zhouie/markdown-emoji)，可以去看看。
 ![markdown-emoji 列表](http://pcx2lec2u.bkt.clouddn.com/201808051255_854.png)
@@ -644,7 +644,7 @@ Github 的 Markdown 语法支持添加 emoji 表情，输入不同的符号码�
 这是因为 Hexo 默认的 markdown 渲染引擎不会渲染 emoji 表情，详情可参阅 [搭建Hexo博客进阶篇](https://www.jianshu.com/p/732240700424)
 
 <a id="216-markdown%E7%9A%84%E5%B1%80%E9%99%90%E6%80%A7"></a>
-## 2.16 Markdown的局限性
+### 2.16 Markdown的局限性
 * 不同的 Markdown 工具功能细节上可能会不一样
 * 写技术类文章条理很重要，因此在开篇有个目录，也显得非常有必要，因此越来越多工具支持 `[TOC]` 一键生成目录列表，具体可参看我的 [github-md-toc](https://github.com/zhouie/github-md-toc)
 * 另外还有，`流程图`，`渲染序列图`，`LaTex数学公式`，`代码语法高亮`，`显示代码行号`，`图片/文字 居中/左右对齐`，`[TOC]目录生成`，等等这些，其实都是非常必要的功能，值得去做一些扩展。
@@ -766,8 +766,8 @@ Github 的 Markdown 语法支持添加 emoji 表情，输入不同的符号码�
 ![](http://pcx2lec2u.bkt.clouddn.com/201808051212_371.png)
 
 
-<a id="%E7%BD%91%E9%A1%B5%E7%89%88%E7%BA%BF%E4%B8%8A"></a>
-### 网页版(线上)
+<a id="33-%E7%BD%91%E9%A1%B5%E7%89%88%E7%BA%BF%E4%B8%8A"></a>
+### 3.3 网页版(线上)
 * [程序猿DD - 常用工具：Markdown转换工具](http://blog.didispace.com/tools/online-markdown/)
 * [马克飞象 - 专为印象笔记打造的Markdown编辑器](https://maxiang.io/)
 * [Cmd Markdown编辑阅读器 - 作业部落出品](https://www.zybuluo.com/mdeditor)
@@ -781,8 +781,8 @@ Github 的 Markdown 语法支持添加 emoji 表情，输入不同的符号码�
 
 同时，也有一些 Markdown 相关浏览器插件也是很棒的，最典型的便是：[Markdown-Here](https://markdown-here.com/)，我也有写一篇博文专门介绍分享了它 —— [Markdown-Here md-2-html渲染](https://zhouie.cn/posts/201808031/)
 
-<a id="others"></a>
-### Others
+<a id="34-others"></a>
+### 3.4 Others
 * [Editor.md - 开源在线 Markdown 编辑器](http://pandao.github.io/editor.md/index.html)
 * [WriteMonkey](http://writemonkey.com/index.php)
 * [DAUX.IO](http://daux.io/index)
@@ -795,14 +795,14 @@ Github 的 Markdown 语法支持添加 emoji 表情，输入不同的符号码�
 * [MarkdownX](http://www.wandoujia.com/apps-com.ryeeeeee.markdownx?mt=8&uo=4&ct=appcards)
 * [markItUp! Universal Markup jQuery Editor](http://markitup.jaysalvat.com/home/)
 
-<a id="more"></a>
-### More
+<a id="35-more"></a>
+### 3.5 More
 如有更好的 Markdown 免费编辑器推荐，请到[这里留言反馈](https://github.com/Javef/Markdown/issues)，谢谢~
 
 ---
 
 <a id="4-%E6%8E%A8%E8%8D%90%E9%98%85%E8%AF%BB"></a>
-# 4. 推荐阅读
+## 4. 推荐阅读
 * [MarkDown学习笔记](https://www.jianshu.com/p/564bdf3a9462?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 * [首次使用MarkDown好激动](https://www.zybuluo.com/liayun/note/371635)
 * [让你的Markdown用起来得心应手](https://www.jianshu.com/p/d7d6da4b7c60?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
@@ -813,7 +813,7 @@ Github 的 Markdown 语法支持添加 emoji 表情，输入不同的符号码�
 ---
 
 <a id="5-%E8%A1%A5%E5%85%85"></a>
-# 5. 补充
+## 5. 补充
 
 2018/04/20 07:12
 ![Markdown_desktop_tool_rank.png](https://upload-images.jianshu.io/upload_images/9934558-a23a100ba5d35018.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
